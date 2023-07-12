@@ -1,0 +1,18 @@
+body{
+    margin: 3cm;
+    background-image: url(IMG-20230330-WA0234.jpg);                                     /* la imagen la pone de fondo*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    text-align: center;
+    justify-content: center;                            /* modifica el titulo*/
+    align-items: center;
+}
+p{ 
+    text-align: justify;
+    color: #000;
+    font-family: sans-serif;
+}

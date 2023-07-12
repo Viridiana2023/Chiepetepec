@@ -1,0 +1,75 @@
+body{
+    margin: 3cm;
+    background-image: url(IMG-20230330-WA0234.jpg);                                     /* la imagen la pone de fondo*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.nav_logo{
+    height: 10px;                                 /*logo*/
+    border-radius: 50%;
+    
+}
+.contenedor-logo, .menu-principal{
+	width:100%;                                         /* acomoda el logo */
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: aliceblue;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  
+   
+}
+li a:hover{
+    background: rgba(50, 122, 122, 30.2);             /* Cambia el color de la caja de links*/
+}
+nav{
+    background: rgba(2, 2, 2, 0.2);                 /* opaca el menu*/
+    height: 80pz;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+h1{
+    text-align: center;
+    justify-content: center;                            /* modifica el titulo*/
+    align-items: center;
+    
+
+}
+p{ 
+    text-align: justify;
+    color: #000;
+    font-family: sans-serif;
+}
+ /* */
+.galeria{                                               /* ara que las imagenes se muevan*/
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+
+}
+.galeria>div{
+    flex: 1;
+    border-radius: 1rem;
+    background-repeat: no-repeat;                           
+    background-size: auto 100%;
+    transition: all.9s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeria>div:hover{
+    flex: 5;
+}
